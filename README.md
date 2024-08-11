@@ -7,8 +7,8 @@ Simple program and packet interface for making floppy drives play MIDI files.
 ### Required hardware
 - A Linux machine (fddmus-pc doesn't support Windows/MacOS (yet))
 - Arduino
-- Floppy disk drive(s) (the more, the better. Just make sure you have enough pins on your Arduino. A floppy drive takes up 2-3 pins depending on how you wire them up.)
-- Some way to power the drives. (An ATX/Lab power supply, for example)
+- Floppy disk drive(s) (the more, the better. Just make sure you have enough pins on your Arduino. A floppy drive takes up 2-3 pins depending on how you wire it up.)
+- Some way to power the drives. (Using an ATX/Lab power supply, for example)
 
 ### Software dependencies
 - libsmf-dev
@@ -32,3 +32,5 @@ You can offset all notes in the song by `n` octaves with the `-o` option. This i
 ./fddmus -d /dev/yourttydevicehere -m pathtomidifile -o -n # play all notes n octaves lower
 ```
 Replace `n` with an actual number.
+
+If everything is done correctly, the drives should start playing the MIDI file.
