@@ -18,7 +18,7 @@ Simple program and packet interface for making floppy drives play MIDI files.
 
 ### Building
 
-Upload the code in `fddmus-arduino` to your Arduino board using Arduino IDE. Next, run `make` in `fddmus-pc`.
+Upload the code in `fddmus-arduino` to your Arduino board using Arduino IDE (make sure to change the size and contents of the  `drives` array according to your setup). Next, run `make` in `fddmus-pc`.
 
 ### Vibin'
 
